@@ -167,4 +167,6 @@ div.table6 {
 }
 img{
     height: 150px;
+    position: relative;
+    left: 45%;
 }
