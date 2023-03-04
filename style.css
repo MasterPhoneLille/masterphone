@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-radius: border-box;
+    font-family: century;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.principale {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    transition: 00.6s ease;
+}
+
+.textarea {
+    min-width: 25%;
+    max-width: 50%;
+}
+
+.name1 {
+    color: rgb(0, 0, 255);
+    padding: 0 0 0 20px;
+    position: absolut;
+}
+
+.name2 {
+    color: red;
+    padding: 0 0 0 20px;
+    border-style: hidden hidden solid hidden;
+
+}
+
+div.welcome {
+    margin: auto;
+}
+
+table,
+th,
+td,
+caption {
+    border: 1px solid rgb(9, 147, 198)
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+div.table1 {
+    padding: 0 0 0 60px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 500px;
+
+}
+
+div.table2 {
+    /* padding: 0 0 0 200px;
+    margin: auto; */
+    position: relative;
+    left:35%;
+    background: rgb(255, 255, 255);
+    width: 500px;
+}
+
+div.table3 {
+    padding: 0 0 0 60px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 500px;
+
+}
+
+div.table4 {
+    padding: 0 0 0 60px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 500px;
+
+}
+
+.cadre {
+    text-align: end;
+}
+
+div.btG {
+    font-size: 20px;
+    border: solid;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(79,162,46,255);
+    margin-top: 30px;
+    -webkit-transition: border dashed, width 2s, height 2s,transform 2s;
+    -moz-transition: border dashed, width 2s, height 2s,transform 2s;
+    -o-transition: border dashed, width 2s, height 2s,transform 2s;
+    transition: border dashed, width 2s, height 2s,transform 2s;
+}
+
+div.btB {
+    font-size: 20px;
+    border: solid;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    -webkit-transition: border dashed, width 2s, height 2s,transform 2s;
+    -moz-transition: border dashed, width 2s, height 2s,transform 2s;
+    -o-transition: border dashed, width 2s, height 2s,transform 2s;
+    transition: border dashed, width 2s, height 2s,transform 2s;
+}
+
+.btG:hover, .btB:hover  {
+    border: dashed red;
+    height: 100px;
+    width: 40em;
+    cursor: pointer; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(48, 98, 214);
+}
+
+a:visited {
+    color: rgb(48, 98, 214);
+    text-decoration: none;
+
+
+}
+div.table5 {
+    margin-left: 200px;
+    background: rgb(255, 255, 255);
+    width: 500px;
+
+}
+div.table6 {
+    margin-left: 200px;
+    background: rgb(255, 255, 255);
+    width: 500px;
+
+}
+img{
+    height: 150px;
+    position: relative;
+    left: 50%;
+}
