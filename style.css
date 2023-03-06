@@ -248,20 +248,26 @@ img{
         width: 100px;
     }
     div.table5 {
+        position: relative;
+        left: 5em;
         margin-left: 100px;
         background: rgb(255, 255, 255);
-        width: 400px;
+        width: 100px;
     
     }
     div.table6 {
+        position: relative;
+        left: 5em;
         margin-left: 100px;
         background: rgb(255, 255, 255);
-        width: 400px;
+        width: 100px;
     }
     div.table3 {
+        position: relative;
+        left: 5em;
         margin-left: 0px;
         background: rgb(255, 255, 255);
-        width: 500px;
+        width: 100px;
     
     }
     img{
