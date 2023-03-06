@@ -242,10 +242,8 @@ img{
         transition: border dashed, width 2s, height 2s,transform 2s;
     }
     div.table2 {
-        /* padding: 0 0 0 200px;
-        margin: auto; */
         position: relative;
-        left:20%;
+        left: 5em;
         background: rgb(255, 255, 255);
         width: 100px;
     }
@@ -265,5 +263,11 @@ img{
         background: rgb(255, 255, 255);
         width: 500px;
     
+    }
+    img{
+        height: 150px;
+        margin-top: 50px;
+        position:relative;
+        left: 40%;
     }
 }
