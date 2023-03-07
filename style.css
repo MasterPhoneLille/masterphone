@@ -174,7 +174,7 @@ div.table5 {
 
 }
 div.table6 {
-    margin-left: 200px;
+    padding: 0 0 0 15px;
     background: rgb(255, 255, 255);
     width: 500px;
 
@@ -248,9 +248,7 @@ img{
     
     }
     div.table6 {
-        position: relative;
-        left: 5em;
-        margin-left: 100px;
+        margin:none;
         background: rgb(255, 255, 255);
         width: 100px;
     }
