@@ -1,4 +1,4 @@
-* {
+body {
     padding: 0;
     margin: 0;
     border-radius: border-box;
@@ -99,10 +99,9 @@ div.table2 {
 }
 
 div.table3 {
-    padding: 0 0 0 60px;
-    margin: auto;
+    padding: 0 0 0 15px;
     background: rgb(255, 255, 255);
-    width: 500px;
+    width: 200px;
 
 }
 
@@ -163,21 +162,15 @@ div.btB {
     cursor: pointer; 
 }
 
-a {
+a, a.btG {
     text-decoration: none;
-    color: rgb(48, 98, 214);
+    color: rgb(255, 255, 255);
 }
 
-a:visited {
-    color: rgb(48, 98, 214);
-    text-decoration: none;
-
-
-}
 div.table5 {
-    margin-left: 200px;
+    padding: 0 0 0 15px;
     background: rgb(255, 255, 255);
-    width: 500px;
+    width: 100px;
 
 }
 div.table6 {
@@ -189,10 +182,10 @@ div.table6 {
 img{
     height: 150px;
     position: relative;
-    left: 50%;
+    left: 40%;
 }
 @media only screen and (max-width:600px){
-    * {
+    body {
         padding: 0;
         margin: 0;
         border-radius: border-box;
@@ -248,9 +241,8 @@ img{
         width: 100px;
     }
     div.table5 {
-        position: relative;
-        left: 5em;
-        margin-left: 100px;
+        justify-content: center;
+        align-items: center;
         background: rgb(255, 255, 255);
         width: 100px;
     
@@ -263,9 +255,7 @@ img{
         width: 100px;
     }
     div.table3 {
-        position: relative;
-        left: 5em;
-        margin-left: 0px;
+        margin: none;
         background: rgb(255, 255, 255);
         width: 100px;
     
@@ -274,6 +264,6 @@ img{
         height: 150px;
         margin-top: 50px;
         position:relative;
-        left: 40%;
+        left: 142px;
     }
 }
