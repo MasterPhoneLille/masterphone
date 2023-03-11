@@ -90,18 +90,17 @@ div.table1 {
 }
 
 div.table2 {
-    /* padding: 0 0 0 200px;
-    margin: auto; */
     position: relative;
-    left:35%;
+    left: 35%;
     background: rgb(255, 255, 255);
     width: 500px;
 }
 
 div.table3 {
-    padding: 0 0 0 15px;
+    position: relative;
+    left: 35%;
     background: rgb(255, 255, 255);
-    width: 200px;
+    width: 10px;
 
 }
 
@@ -128,12 +127,12 @@ div.btG {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(79,162,46,255);
+    background-color: rgba(79, 162, 46, 255);
     margin-top: 30px;
-    -webkit-transition: border dashed, width 2s, height 2s,transform 2s;
-    -moz-transition: border dashed, width 2s, height 2s,transform 2s;
-    -o-transition: border dashed, width 2s, height 2s,transform 2s;
-    transition: border dashed, width 2s, height 2s,transform 2s;
+    -webkit-transition: border dashed, width 2s, height 2s, transform 2s;
+    -moz-transition: border dashed, width 2s, height 2s, transform 2s;
+    -o-transition: border dashed, width 2s, height 2s, transform 2s;
+    transition: border dashed, width 2s, height 2s, transform 2s;
 }
 
 div.btB {
@@ -149,42 +148,57 @@ div.btB {
     align-items: center;
     background-color: rgb(0, 0, 0);
     margin-top: 30px;
-    -webkit-transition: border dashed, width 2s, height 2s,transform 2s;
-    -moz-transition: border dashed, width 2s, height 2s,transform 2s;
-    -o-transition: border dashed, width 2s, height 2s,transform 2s;
-    transition: border dashed, width 2s, height 2s,transform 2s;
+    -webkit-transition: border dashed, width 2s, height 2s, transform 2s;
+    -moz-transition: border dashed, width 2s, height 2s, transform 2s;
+    -o-transition: border dashed, width 2s, height 2s, transform 2s;
+    transition: border dashed, width 2s, height 2s, transform 2s;
 }
 
-.btG:hover, .btB:hover  {
+.btG:hover,
+.btB:hover {
     border: dashed red;
     height: 100px;
     width: 40em;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
-a, a.btG {
+a,
+a.btG {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
 div.table5 {
-    padding: 0 0 0 15px;
+    position: relative;
+    left: 35%;
     background: rgb(255, 255, 255);
-    width: 100px;
+    width: 10px;
 
 }
+
 div.table6 {
-    padding: 0 0 0 15px;
+    position: relative;
+    left: 35%;
     background: rgb(255, 255, 255);
-    width: 500px;
+    width: 10px;
 
 }
-img{
+
+img {
     height: 150px;
     position: relative;
     left: 40%;
 }
-@media only screen and (max-width:600px){
+
+#Apdn {
+    margin: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:600px) {
     body {
         padding: 0;
         margin: 0;
@@ -192,12 +206,15 @@ img{
         font-family: century;
         background-color: rgb(255, 255, 255);
     }
-    .btG:hover, .btB:hover  {
+
+    .btG:hover,
+    .btB:hover {
         border: dashed red;
         height: 30px;
         width: 20em;
-        cursor: pointer; 
+        cursor: pointer;
     }
+
     div.btG {
         font-size: 20px;
         border: solid;
@@ -209,13 +226,14 @@ img{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(79,162,46);
+        background-color: rgb(79, 162, 46);
         margin-top: 30px;
-        -webkit-transition: border dashed, width 2s, height 2s,transform 2s;
-        -moz-transition: border dashed, width 2s, height 2s,transform 2s;
-        -o-transition: border dashed, width 2s, height 2s,transform 2s;
-        transition: border dashed, width 2s, height 2s,transform 2s;
+        -webkit-transition: border dashed, width 2s, height 2s, transform 2s;
+        -moz-transition: border dashed, width 2s, height 2s, transform 2s;
+        -o-transition: border dashed, width 2s, height 2s, transform 2s;
+        transition: border dashed, width 2s, height 2s, transform 2s;
     }
+
     div.btB {
         font-size: 20px;
         border: solid;
@@ -229,39 +247,56 @@ img{
         align-items: center;
         background-color: rgb(0, 0, 0);
         margin-top: 30px;
-        -webkit-transition: border dashed, width 2s, height 2s,transform 2s;
-        -moz-transition: border dashed, width 2s, height 2s,transform 2s;
-        -o-transition: border dashed, width 2s, height 2s,transform 2s;
-        transition: border dashed, width 2s, height 2s,transform 2s;
+        -webkit-transition: border dashed, width 2s, height 2s, transform 2s;
+        -moz-transition: border dashed, width 2s, height 2s, transform 2s;
+        -o-transition: border dashed, width 2s, height 2s, transform 2s;
+        transition: border dashed, width 2s, height 2s, transform 2s;
     }
+
     div.table2 {
         position: relative;
-        left: 5em;
+        left: 2.5em;
         background: rgb(255, 255, 255);
         width: 100px;
     }
+
     div.table5 {
-        justify-content: center;
-        align-items: center;
+        position: relative;
+        left: 1px;
         background: rgb(255, 255, 255);
-        width: 100px;
-    
+        width: 1px;
+
     }
+
     div.table6 {
-        margin:none;
+        position: relative;
+        left: 1px;
         background: rgb(255, 255, 255);
-        width: 100px;
+        width: 10px;
     }
+
     div.table3 {
-        margin: none;
+        position: relative;
+        left: 1px;
         background: rgb(255, 255, 255);
-        width: 100px;
-    
+        width: 10px;
+
     }
-    img{
+
+    img {
         height: 150px;
         margin-top: 50px;
-        position:relative;
-        left: 142px;
+        position: relative;
+        left: 125px;
+    }
+
+    #Apdn {
+        margin: none;
+        text-decoration: underline;
+    }
+
+    th{
+        text-align: center;
+        padding: 1px 1px;
     }
 }
