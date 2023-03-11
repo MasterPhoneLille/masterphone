@@ -135,6 +135,46 @@ div.btG {
     transition: border dashed, width 2s, height 2s, transform 2s;
 }
 
+.an{
+    font-size: 20px;
+    border: solid;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    -webkit-transition: border dashed, width 2s, height 2s, transform 2s;
+    -moz-transition: border dashed, width 2s, height 2s, transform 2s;
+    -o-transition: border dashed, width 2s, height 2s, transform 2s;
+    transition: border dashed, width 2s, height 2s, transform 2s;
+}
+
+.av{
+    font-size: 20px;
+    border: solid;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 162, 46, 255);
+    margin-top: 30px;
+    -webkit-transition: border dashed, width 2s, height 2s, transform 2s;
+    -moz-transition: border dashed, width 2s, height 2s, transform 2s;
+    -o-transition: border dashed, width 2s, height 2s, transform 2s;
+    transition: border dashed, width 2s, height 2s, transform 2s;
+}
+
+
+
 div.btB {
     font-size: 20px;
     border: solid;
@@ -154,8 +194,8 @@ div.btB {
     transition: border dashed, width 2s, height 2s, transform 2s;
 }
 
-.btG:hover,
-.btB:hover {
+.av:hover,
+.an:hover {
     border: dashed red;
     height: 100px;
     width: 40em;
@@ -207,34 +247,14 @@ img {
         background-color: rgb(255, 255, 255);
     }
 
-    .btG:hover,
-    .btB:hover {
+    .av:hover,.an:hover {
         border: dashed red;
         height: 30px;
-        width: 20em;
+        width: 10em;
         cursor: pointer;
     }
 
-    div.btG {
-        font-size: 20px;
-        border: solid;
-        border-radius: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 10em;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(79, 162, 46);
-        margin-top: 30px;
-        -webkit-transition: border dashed, width 2s, height 2s, transform 2s;
-        -moz-transition: border dashed, width 2s, height 2s, transform 2s;
-        -o-transition: border dashed, width 2s, height 2s, transform 2s;
-        transition: border dashed, width 2s, height 2s, transform 2s;
-    }
-
-    div.btB {
+    .an{
         font-size: 20px;
         border: solid;
         border-radius: 30px;
@@ -246,6 +266,25 @@ img {
         justify-content: center;
         align-items: center;
         background-color: rgb(0, 0, 0);
+        margin-top: 30px;
+        -webkit-transition: border dashed, width 2s, height 2s, transform 2s;
+        -moz-transition: border dashed, width 2s, height 2s, transform 2s;
+        -o-transition: border dashed, width 2s, height 2s, transform 2s;
+        transition: border dashed, width 2s, height 2s, transform 2s;
+    }
+    
+    .av{
+        font-size: 20px;
+        border: solid;
+        border-radius: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10em;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(79, 162, 46, 255);
         margin-top: 30px;
         -webkit-transition: border dashed, width 2s, height 2s, transform 2s;
         -moz-transition: border dashed, width 2s, height 2s, transform 2s;
