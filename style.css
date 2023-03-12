@@ -197,6 +197,15 @@ img {
     align-items: center;
     text-decoration: underline;
 }
+.t1{
+    position: relative;
+    text-align: center;
+}
+.t2{
+    position: relative;
+    text-align: center
+}
+    
 
 @media only screen and (max-width:600px) {
     body {
@@ -297,5 +306,11 @@ img {
     th{
         text-align: center;
         padding: 1px 1px;
+    }
+    .t1{
+        padding:0 0 0 20px;
+    }
+    .t2{
+        padding:0 0 0 60px;
     }
 }
