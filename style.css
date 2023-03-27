@@ -116,7 +116,7 @@ div.table4 {
     text-align: end;
 }
 
-.an{
+.an {
     font-size: 20px;
     border: solid;
     border-radius: 30px;
@@ -135,7 +135,7 @@ div.table4 {
     transition: border dashed, width 2s, height 2s, transform 2s;
 }
 
-.av{
+.av {
     font-size: 20px;
     border: solid;
     border-radius: 30px;
@@ -197,22 +197,25 @@ img {
     align-items: center;
     text-decoration: underline;
 }
-.t1{
+
+.t1 {
     position: relative;
     text-align: center;
 }
-.t2{
+
+.t2 {
     position: relative;
     text-align: center
 }
-iframe{
-    border:0;
+
+iframe {
+    border: 0;
     position: relative;
     left: 33%;
     justify-content: center;
     align-items: center;
 }
-    
+
 
 @media only screen and (max-width:600px) {
     body {
@@ -223,14 +226,15 @@ iframe{
         background-color: rgb(255, 255, 255);
     }
 
-    .av:hover,.an:hover {
+    .av:hover,
+    .an:hover {
         border: dashed red;
         height: 30px;
         width: 10em;
         cursor: pointer;
     }
 
-    .an{
+    .an {
         font-size: 20px;
         border: solid;
         border-radius: 30px;
@@ -248,8 +252,8 @@ iframe{
         -o-transition: border dashed, width 2s, height 2s, transform 2s;
         transition: border dashed, width 2s, height 2s, transform 2s;
     }
-    
-    .av{
+
+    .av {
         font-size: 20px;
         border: solid;
         border-radius: 30px;
@@ -310,19 +314,28 @@ iframe{
         text-decoration: underline;
     }
 
-    th{
+    th {
         text-align: center;
         padding: 1px 1px;
     }
-    .t1{
-        padding:0 0 0 20px;
+
+    .t1 {
+        padding: 0 0 0 20px;
     }
-    .t2{
-        padding:0 0 0 60px;
+
+    .t2 {
+        padding: 0 0 0 60px;
     }
-    iframe{
-        border:0;
+
+    iframe {
+        border: 0;
         position: relative;
         left: 2%;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 10px 10px;
     }
 }
