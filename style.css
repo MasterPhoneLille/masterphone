@@ -314,7 +314,7 @@ iframe {
         text-decoration: underline;
     }
 
-    th {
+    th,.tg-0lax {
         text-align: center;
         padding: 1px 1px;
     }
